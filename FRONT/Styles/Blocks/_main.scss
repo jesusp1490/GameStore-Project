@@ -1,0 +1,266 @@
+body {
+    background: linear-gradient(180deg, $morado-clarito 60%, $primary-color);
+
+}
+
+main{
+    font-family: $font-primary;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color: white;
+    position: relative;
+    overflow: auto;
+
+}
+
+.izquierda {
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
+    z-index: 3;
+    position: sticky;
+    top: 0px
+    
+}
+
+.logo {
+    display: flex;
+    padding-top: 10%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+
+    
+    img {
+        object-fit: contain;
+        width: 70%;
+        height: 70%;
+    }
+}
+
+.menu {
+    font-size: 1rem;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+    
+    
+    
+
+    .log {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 30%;
+
+        img {
+            width: 10%;
+            
+        }
+    }
+
+    .reg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 10%;
+        
+        img {
+            width: 10%;
+            
+        }
+    }
+
+}
+
+.tienda {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10%;
+    height: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    align-items: center;
+    border-bottom-style: solid;
+    border-color: white;
+    border-width: 1px;
+    
+
+        img {
+            height: 20%;
+        }
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 20%;
+    color: white;
+    border-bottom-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-size: 1rem;
+    justify-content: space-evenly;
+}
+
+.footer {
+    padding-top: 10%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.derecha {
+    width: 85%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.foto_random {
+    width: 100%;
+    height: 50%;
+    z-index: 0;
+}
+
+.difuminado {
+    // position: absolute;
+    background-color: $morado-clarito;
+    box-shadow: 0px 0px 40px 50px $morado-clarito;
+    width: 100%;
+    height: 10%;
+    z-index: 1;
+
+    h2 {
+        font-size: 3rem;
+        padding-left: 2%;
+    }
+}
+
+//Cards
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15%;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    object-fit: cover;
+    background-color: $color-salmon;
+    color: black;
+    text-align: justify;
+    padding: 1%;
+    
+    
+
+    p {
+        padding-top: 2%;
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8rem;
+        bottom: 0px;
+        border: 1px solid white;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #37306B, #66347F, #9E4784, #D27685);
+        height: 10%;
+        text-align: center;
+        color: white;
+    }
+
+    h2{
+        font-size: 1.4rem;
+        text-align: start;
+        color: white;
+        text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.card-content:hover {
+    border: 5px solid #9E4784;
+}
+
+.imagesNew {
+
+    width: 100%;
+    height: 40%;
+    
+    
+}
+
+.nuevos {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    z-index: 2;
+    margin-top: 3%;
+    
+}
+
+.populares {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    z-index: 2;
+    margin-top: 2%;
+    
+}
+
+.MVP {
+    padding-top: 6%;
+    font-size: 3rem;
+    padding-left: 2%;
+}
+
+.userInfo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20%;
+    align-items: center;
+
+    img{
+        width: 20%;
+    }
+}
+
+.logout{
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    background: linear-gradient(135deg, #37306B, #66347F, #9E4784, #D27685);
+    justify-content: center;
+    height: 20%;
+    margin-bottom: 2%;
+}
+

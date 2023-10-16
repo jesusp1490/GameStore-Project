@@ -1,0 +1,18 @@
+body {
+    background-color: #37306B;
+    background: linear-gradient(135deg, #37306B, #66347F);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+}
